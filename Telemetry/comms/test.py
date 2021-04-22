@@ -2,6 +2,8 @@ import socket
 import json
 import threading
 
+import logging
+
 import serial
 from serial import SerialException
 from serial.tools import list_ports
